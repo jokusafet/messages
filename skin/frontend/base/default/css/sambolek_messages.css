@@ -1,0 +1,25 @@
+#sambolek_messages {
+    position: relative;
+    z-index: 9999;
+}
+#sambolek_messages_close {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    top: 13px;
+    right: 13px;
+    z-index: 10000;
+    background: #666;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    text-decoration: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#sambolek_messages > .messages{
+    text-align: center;
+}

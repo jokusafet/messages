@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Sambolek_Messages>
+            <version>0.0.0.1</version>
+        </Sambolek_Messages>
+    </modules>
+    <global>
+        <blocks>
+            <sambolek_messages>
+                <class>Sambolek_Messages_Block</class>
+            </sambolek_messages>
+        </blocks>        
+        <models>
+            <sambolek_messages>
+                <class>Sambolek_Messages_Model</class>
+            </sambolek_messages>
+        </models>
+    </global>
+    <frontend>        
+        <layout>
+            <updates>
+                <sambolek_messages>
+                    <file>sambolek_messages.xml</file>
+                </sambolek_messages>
+            </updates>
+        </layout>
+    </frontend>
+</config>

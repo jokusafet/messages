@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <placeholders>
+        <sambolek_messages>
+            <block>sambolek_messages/echo</block>
+            <placeholder>SAMBOLEK_MESSAGES</placeholder>
+            <name>sambolek_messages</name>
+            <container>Sambolek_Messages_Model_Container_Echo</container>
+            <cache_lifetime>86400</cache_lifetime>
+        </sambolek_messages>
+    </placeholders>
+</config>

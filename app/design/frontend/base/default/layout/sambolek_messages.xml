@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="root">
+                <remove name="global_messages" />
+        </reference>
+        <reference name="after_body_start">
+            <block type="sambolek_messages/echo" name="sambolek_messages" before="-" />
+        </reference>
+        <reference name="head">
+            <action method="addCss">
+                <name>css/sambolek_messages.css</name>
+            </action>
+        </reference>
+    </default>
+</layout>
